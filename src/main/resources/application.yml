@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: a159159
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3307/estate?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf8
+
+
+server:
+  port: 7080
